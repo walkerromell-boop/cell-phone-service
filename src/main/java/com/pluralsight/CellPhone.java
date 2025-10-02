@@ -8,6 +8,15 @@ public class CellPhone {
     private String phoneNumber;
     private String owner;
 
+    public void CellPhoneInfo(){
+        serialNumber =0;
+        model=("");
+        carrier=("");
+        phoneNumber=("");
+        owner=("");
+
+    }
+
     public Integer getSerialNumber() {
         return serialNumber;
     }

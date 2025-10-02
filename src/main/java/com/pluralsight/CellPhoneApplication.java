@@ -36,8 +36,12 @@ public class CellPhoneApplication {
 
         phone.showMe();
 
+        myPhone.showMe();
+
         displaying(phone);
+
         displaying(myPhone);
+
         serialnum1(myPhone);
 
     }
