@@ -48,6 +48,8 @@ public class CellPhone {
         this.owner = owner;
     }
 
-
+public void showMe(){
+    System.out.println(getOwner()+ "'s phone is calling "+getPhoneNumber());
+}
 
 }
